@@ -67,9 +67,9 @@ local Root = HumanoidRootPart
 Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/UI/refs/heads/main/ui_BananaHub_final.lua"))()
 
 Window = Library:CreateWindow({
-    Title = "HDanh Hub",
+    Title = "TrongVu Hub",
     Desc = "- Blox Fruit",
-    Image = "rbxassetid://123613996022560"
+    Image = "rbxassetid://86945711743257"
 })
 
 -- ==========================================
@@ -290,11 +290,11 @@ Tabs = {
 pcall(function()
     if Library.SetTheme then
         Library:SetTheme({
-            Background         = Color3.fromRGB(255, 182, 193),
-            Accent             = Color3.fromRGB(255, 20, 147),
-            PrimaryText        = Color3.fromRGB(255, 255, 255),
-            SecondaryText      = Color3.fromRGB(255, 220, 230),
-            Divider            = Color3.fromRGB(255, 105, 180),
+            Background         = Color3.fromRGB(31, 23, 23),
+            Accent             = Color3.fromRGB(0, 255, 34),
+            PrimaryText        = Color3.fromRGB(0, 51, 255),
+            SecondaryText      = Color3.fromRGB(255, 240, 95),
+            Divider            = Color3.fromRGB(255, 0, 0),
             Header             = Color3.fromRGB(220, 20, 90),
             Box                = Color3.fromRGB(255, 145, 175),
             Button             = Color3.fromRGB(255, 20, 147),
@@ -353,7 +353,7 @@ end)
 wait(1)
 
 Library:Notify({
-    Title = "HDanh Hub",
+    Title = "TrongVu Hub",
     Description = "Chào mừng! UI màu hồng đã được load thành công.\nNhấn nút góc trái màn hình để mở GUI.",
     Duration = 4
 })
@@ -2946,21 +2946,21 @@ task.defer(function()
 end)
 Tabs.Info:AddSection("Thông Tin")
 Tabs.Info:AddButton({
-    ["Title"] = "HDanh Community",
+    ["Title"] = "TrongVu Community",
     ["Description"] = "Discord",
     ["Callback"] = function()
         setclipboard(tostring("https://dsc.gg/nopermc"))
     end
 })
 Tabs.Info:AddButton({
-    ["Title"] = "HDanh Hub",
+    ["Title"] = "TrongVu Hub",
     ["Description"] = "Youtube",
     ["Callback"] = function()
         setclipboard(tostring("https://youtube.com/@nopermc"))
     end
 })
 Tabs.Info:AddButton({
-    ["Title"] = "HDanh Hub",
+    ["Title"] = "TrongVU Hub",
     ["Description"] = "Tiktok",
     ["Callback"] = function()
         setclipboard(tostring("www.tiktok.com/@uytins1vn._"))
@@ -12060,4 +12060,4 @@ Tabs.Misc:AddButton({
 })
 
 -- ===============================================================
-print('✅ HDanh Hub - Tất cả tính năng đã được load!')
+print('✅ TrongVu Hub - Tất cả tính năng đã được load!')
